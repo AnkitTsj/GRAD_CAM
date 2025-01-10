@@ -85,7 +85,9 @@ We process the activation map to create interpretable visualizations.
 
 ### Example 1 : 
 The cell 3 in run.ipynb has output displayed as Afgan Hound and the outputs directory contains the result images,
+
 Original Image:
+
 ![n02088094_97_original](https://github.com/user-attachments/assets/8484bb8d-3eac-4457-adc8-76bfd7339100)
 
 The original gradient map obtained by processing gradients with their respective importance weights as per the channels,
@@ -96,13 +98,16 @@ The heatmap obtained by applying colormap using cv2
 
 The overlay heatmap on the original image (640x640) highlights facial features as critical for predicting 'Afghan Hound.'
 , that is special kind of Hound Breed of Dogs.
+
 ![n02088094_97_overlay](https://github.com/user-attachments/assets/a7bf6c5d-b30b-4a04-a102-3c0a3365899b)
 
 
 ### Example 2: A basketball 🏀:
 cell 8 in run.ipynb
 The heatmap and overlay image shows that the model has focus in the stripes as it's not just a ball rather has a special kind.
+
 Original Image:
+
 ![n02802426_12038_original](https://github.com/user-attachments/assets/a6a1ce72-d8a0-4ff8-99d0-637d3e398592)
 
 The original gradient map obtained by processing gradients with their respective importance weights as per the channels:
@@ -112,6 +117,7 @@ The processed heatmap obtained by applying colormap using cv2:
 ![n03240683_15144_heatmap](https://github.com/user-attachments/assets/e3a404f4-0de2-4c40-aae4-fb8ae3cbb85f)
 
 The Overlay of heatmap over original image:
+
 ![n02802426_12038_overlay](https://github.com/user-attachments/assets/1f5e9d33-940c-437a-9ed6-eeb5a77c6443)
 
 
